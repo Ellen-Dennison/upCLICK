@@ -1,0 +1,2 @@
+# upCLICK
+This module covers a wide array of themes that relate to how interactive technology is used in the world today. It aims to critically assess the latest design and development trends, and evaluate the benefits and pitfalls associated with these new advances. It is also concerned with the creation of user-centric applications through the implementation of the fundamental design laws of user experience design. The practical component of the module covers video editing tools and the basic skills required to create attractive videos.
