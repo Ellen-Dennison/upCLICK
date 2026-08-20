@@ -20,6 +20,17 @@ jobs:
           node-version: '24.x'
           cache: npm
 
+      - name: Check package metadata
+        run: |
+          echo "Node:"
+          node --version
+          echo "npm:"
+          npm --version
+          echo "package.json:"
+          cat package.json
+          echo "Checking for empty versions:"
+          grep -R '"version": ""' package.json package-lock.json || true
+
       - name: Install dependencies
         run: npm ci
 
