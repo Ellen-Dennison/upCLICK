@@ -9,5 +9,5 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] })
    
   ],
-  base: '/vite-deploy-demo/'
+  base: '/upCLICK/'
 })
