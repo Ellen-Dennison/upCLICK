@@ -4,7 +4,22 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".gitattributes": true,
+        ".gitignore": true,
+        "eslint.config.js": true,
+        "index.html": true,
+        "package-lock.json": true,
+        "package.json": true,
+        "README.md": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".gitattributes",
+        ".gitignore",
+        "eslint.config.js",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "README.md"
+    ]
 }
